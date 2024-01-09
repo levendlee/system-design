@@ -18,7 +18,7 @@
 | Read 1Mb sequentially from disk | 30,000,000ns = 30ms |
 | Send packet CA -&gt; Netherlands -&gt; CA | 150,000,000 ns = 150ns |
 
-# 3. Availability NUmbers
+# 3. Availability Numbers
 | Availability | Downtime Per Day | Downtime Per Year |
 |-----------|------|------|
 | 99% | 14.4 minuts | 3.65 Days|

@@ -52,7 +52,7 @@ Separate web/mobile traffic (web tier) and database (data tier).
   - Key-value stores. 
   - Graph stores.
   - Column stores.
-  - Dodument stores.
+  - Document stores.
 - Join operations are not supported.
 
 ## What to use
@@ -83,7 +83,7 @@ How it resolves problems of failover and availability:
 - Too much traffic, add new servers, load balancer automatically sends requests to them.
 
 # 5. Database Replication (Data tier scaling)
-Master (original) / salve (copies) relationship.
+Master (original) / slave (copies) relationship.
 - Master only supports write.
   - Data modifying operations send to master, e.g. insert, delete, update, etc.
 - Slaves only supports read operations.
