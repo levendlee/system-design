@@ -115,7 +115,7 @@ Models
 - Use domain knowledge to select and extract predictive features from raw data
 - Transforming predicive features into format usable by the model
 
-#### 3.2.1. Handiling missing values {.numbered}
+#### 3.2.1. Handiling missing values
 ##### Deletion
 - Column deletion
     - Column has too many missing values.
@@ -191,11 +191,16 @@ Trade-offs:
 
 ##### Identify features and labels
 - **Hand labeling**
+    - Explicit labeling.
 - **Natural labeling**
-No explicit labeling. Inferred automatically without human annotations.
+    - No explicit labeling. Inferred automatically without human annotations.
 
 ##### Select a sampling strategy
-Convenience sampling/Snowball sampling/Stratified sampling/Reservior sampling/Importance sampling.
+- Convenience sampling
+- Snowball sampling
+- Stratified sampling
+- Reservior sampling
+- Importance sampling
 
 ##### Split the data
 Training/evaliation/test dataset.
@@ -204,10 +209,10 @@ Training/evaliation/test dataset.
 Serious issue as it might not have enough data to learn the minority class.
 
 - **Resampling training data**
-Oversample minority or undersample majority.
+    - Oversample minority or undersample majority.
 
 - **Altering the loss function**
-More weights on minority class. Class-balanced loss and focal loss.
+    - More weights on minority class. Class-balanced loss and focal loss.
 
 #### 4.2.2 Chooing loss function
 
